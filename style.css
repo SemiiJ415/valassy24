@@ -101,11 +101,8 @@ body{
     line-height: .9;
     color: black;
 }
-@media (max-width: 576px) {
-    .logo-head{
-        margin-top: 50px;
-    }
-}
+
+
 
 @media (min-width: 768px){
     .header{
@@ -134,6 +131,13 @@ body{
         padding-top: 20px;
     }
 }
+
+@media (max-width: 768px){
+    .logo-head{
+        padding-top: 40px;
+    }
+}
+
 .span{
     margin: 0;
     padding: 0;
@@ -327,6 +331,10 @@ color: white;
     justify-content: center;
     padding: 0;
     margin: 0;
+}
+
+#programSubmenu {
+    background-color: var(--geranium);
 }
 
 .figcaption{
@@ -594,6 +602,7 @@ color: white;
     text-transform: uppercase;
 }
 .cost-div {
+    height: 670px;
     border: 1px solid hotpink;
     border-radius: 5px;
     box-shadow: 2px 4px #6c3a6e ;
